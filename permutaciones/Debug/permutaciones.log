@@ -1,8 +1,0 @@
-﻿  CppCLR_WinformsProjekt.cpp
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(141,76): error C2039: "button2_Click": no es un miembro de "CppCLRWinformsProjekt::Form1"
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(15): message : vea la declaración de 'CppCLRWinformsProjekt::Form1'
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(141,1): error C2065: 'button2_Click': identificador no declarado
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(141,1): error C3924: error en el argumento #2 de la llamada al constructor delegado 'System::EventHandler':
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(141,1): message : se esperaba una función de puntero a miembro
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(262,24): warning C4244: '=': conversión de '__int64' a 'int'; posible pérdida de datos
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Form1.h(263,24): warning C4244: '=': conversión de '__int64' a 'int'; posible pérdida de datos

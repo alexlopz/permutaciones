@@ -1,3 +1,0 @@
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Debug\permutaciones.vcxproj.AssemblyReference.cache
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Debug\permutaciones.Form1.resources
-C:\Users\Francisco\source\repos\permutaciones\permutaciones\Debug\permutaciones.vcxproj.GenerateResource.cache
