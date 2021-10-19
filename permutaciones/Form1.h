@@ -347,7 +347,6 @@ namespace CppCLRWinformsProjekt {
 			this->button3->Size = System::Drawing::Size(105, 23);
 			this->button3->TabIndex = 16;
 			this->button3->Text = L"Inicio";
-			this->gtbutton3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
 			// 
 			// tableLayoutPanel2
@@ -463,8 +462,32 @@ namespace CppCLRWinformsProjekt {
 			n = Convert::ToInt64(textBoxN->Text);
 			r = Convert::ToInt64(textBoxR->Text);
 
-			if (n > r) {
+			if (r > n || n > 99 || r > 99) {
+				MessageBox::Show("El valor de N debe ser mayor que R, o puede que N o R son mayores o iguales a 100");
+			}
+			else
+			{
+				
 				restaDenominador = n - r;
+
+				/*if (restaDenominador == 1) {
+					resultado2 = restaDenominador * 1;
+				}*/
+
+				if (restaDenominador == 1) {
+
+					resultado2 = restaDenominador * 1;
+				}
+
+				if (n == 1) {
+
+					resultado1 = 1;
+				}
+
+				if (restaDenominador == 0) {
+
+					resultado2 = 1;
+				}
 
 				factorial = 1;
 				while (n > 1) {
@@ -481,10 +504,6 @@ namespace CppCLRWinformsProjekt {
 				label9->Text = Convert::ToString(resultado1);
 				label8->Text = Convert::ToString(resultado2);
 				label11->Text = Convert::ToString(combinacion);
-			}
-			else
-			{
-				MessageBox::Show("El valor de N debe ser mayor que R");
 			}
 
 		}
